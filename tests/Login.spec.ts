@@ -24,5 +24,7 @@ test("User login test @master @sanity @regression", async ({page})=> {
     await loginPage.setPassword(config.password);
     await loginPage.clickLogin();
 
+    //test
+
     // await expect(loginPage.getLoginErrorMessage()).toBeNull();
 });
